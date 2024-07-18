@@ -1,0 +1,101 @@
+.sesult-card-container {
+  background: #ffffff33;
+  border-color: #ffffff33;
+  border-style: solid;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+.result-img {
+  width: 50%;
+}
+.heading {
+  font-weight: 700;
+  color: #334155;
+  font-size: 30px;
+  margin: 10px;
+}
+.best-Score {
+  font-weight: 500;
+  color: #334155;
+  font-size: 12px;
+  margin: 10px;
+  margin-top: 5px;
+}
+.score {
+  font-weight: 600;
+  color: #523fff;
+  font-size: 17px;
+  margin: 10px;
+  margin-top: 5px;
+}
+.emoji-result-play-again {
+  color: #334155;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #ffce27;
+  border-radius: 10px;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+}
+.score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 576px) {
+  .result-img {
+    width: 40%;
+  }
+  .sesult-card-container {
+    margin: 60px;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .result-img {
+    width: 35%;
+  }
+  .sesult-card-container {
+    margin: 100px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+  }
+  .score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .result-img {
+    width: 22%;
+  }
+  .sesult-card-container {
+    margin: 100px;
+    margin-top: 30px;
+    padding: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+}

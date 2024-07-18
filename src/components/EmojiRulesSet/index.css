@@ -1,0 +1,143 @@
+.emoji-rules-main {
+  background-image: linear-gradient(#a09aed, #e0badb);
+  color: black;
+  padding: 30px;
+  height: 100%;
+}
+.black-back-arrow {
+  height: 20px;
+}
+.back-text {
+  padding-left: 7px;
+  color: #334155;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.middle-main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.19);
+  border-color: #ffffff;
+  border-style: solid;
+}
+.emoji-rules-ul {
+  padding-left: 20px;
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.emoji-rules-name {
+  color: #334155;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.emoji-rules-li {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.back-btn-container {
+  display: flex;
+  align-items: center;
+}
+.icon-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-rules-img {
+  width: 70%;
+}
+
+.rules-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji-rules-text {
+  text-align: center;
+  font-size: 23px;
+
+  margin-top: 0px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.emoji-start-play-btn {
+  background: rgba(51, 65, 85, 1);
+  border: navajowhite;
+  color: #fff;
+  padding: 6px 11px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: sans-serif;
+  align-self: center;
+}
+
+@media screen and (min-width: 576px) {
+  .emoji-rules-img {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-rules-img {
+    width: 60%;
+  }
+  .emoji-rules-main {
+    padding: 50px;
+    height: 100%;
+  }
+  .icon-sec {
+    width: 45%;
+  }
+  .emoji-rules-img {
+    width: 85%;
+  }
+  .middle-main {
+    flex-direction: row;
+    width: 100%;
+  }
+  .rules-container {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+  }
+  .emoji-rules-li {
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 992px) {
+  .emoji-rules-main {
+    padding: 80px;
+    height: 100%;
+  }
+  .emoji-rules-img {
+    width: 70%;
+  }
+  .emoji-rules-li {
+    margin-bottom: 14px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .emoji-rules-main {
+    padding: 30px;
+    height: 100vh;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .emoji-rules-img {
+    width: 60%;
+  }
+  .emoji-rules-ul {
+    font-size: 14px;
+  }
+}

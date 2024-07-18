@@ -1,0 +1,27 @@
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.close-Btn {
+  text-align: end;
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: 700;
+  color: #334155;
+}
+.model-Heading {
+  color: #334155;
+  font-size: 30px;
+  font-weight: 700;
+  align-self: center;
+}
+.model-ul {
+  padding: 0px;
+}
+.model-li {
+  color: #475569;
+  font-size: 15px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}

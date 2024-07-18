@@ -1,0 +1,23 @@
+.rps-game-home {
+  color: white;
+  background-color: #223a5f;
+  min-height: 100vh;
+  max-height: 100%;
+}
+.arrow {
+  color: white;
+}
+.rps-game-home {
+  color: white;
+}
+.image {
+  width: 70px;
+}
+.ul-items {
+  display: flex;
+  flex-direction: row;
+}
+.container1{
+  display: flex;
+  align-items: center;
+}

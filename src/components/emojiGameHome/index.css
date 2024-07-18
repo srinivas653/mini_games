@@ -1,0 +1,124 @@
+.emojiGameHome-headerImg {
+  background: #ffffff33;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.emojiGameHome-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#a09aed, #e0badb);
+  font-family: 'Roboto';
+  min-height: 100vh;
+  height: 100%;
+}
+.emojiGameHome-gamming-container {
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.emojiGameHome-logo-co {
+  display: flex;
+  align-items: center;
+}
+.header-score-container {
+  display: flex;
+  align-items: center;
+}
+.header-logo-img {
+  width: 25px;
+  margin-right: 10px;
+}
+.header-text {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+}
+.Score-text {
+  padding-right: 10px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 500;
+}
+.rules-btn {
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: #334155;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.emojiGameHome-back {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.back-arrow {
+  font-size: 18px;
+  margin-right: 7px;
+}
+.back-rules-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.emoji-ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gaming-back{
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+  .emojiGameHome-gamming-container {
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .emojiGameHome-headerImg {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .emojiGameHome-gamming-container {
+    height: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .emojiGameHome-headerImg {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .emojiGameHome-gamming-container {
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .emojiGameHome-headerImg {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
